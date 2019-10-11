@@ -1,0 +1,30 @@
+{
+    "name": "Digi-CadInt",
+    "description": "Scrapes part info off Digi-Key and creates an XML file that CadInt can import into a new part.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage",
+        "downloads"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.digikey.com/product-detail/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
