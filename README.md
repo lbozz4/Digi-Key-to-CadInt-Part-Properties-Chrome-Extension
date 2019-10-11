@@ -5,3 +5,12 @@
 to-do:
 - Add a badge to the browserAction to add a green check mark to the icon when you're on a digikey product page
 - Use the omnibox to perform some kind of part search that includes the usual criteria (in stock, qty 1, RoHS, etc)
+
+
+sites helping me rn:
+https://stackoverflow.com/questions/4845215/making-a-chrome-extension-download-a-file
+
+https://developer.chrome.com/extensions/downloads
+
+https://developer.chrome.com/extensions/getstarted
+
