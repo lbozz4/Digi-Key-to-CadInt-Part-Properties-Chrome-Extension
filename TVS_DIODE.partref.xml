@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PartRef Name="TVS_DIODE" Ver="1">
+<Symbol Name="SOD123"/>
+<Gate Name="ZDIODE" Swap="1" Index="1"/>
+<Pad Name="C" Net="1"/>
+<Pad Name="A" Net="2"/>
+<Pin Name="G1:K" Net="1"/>
+<Pin Name="G1:A" Net="2"/>
+<Properties Ver="1"/>
+</PartRef>

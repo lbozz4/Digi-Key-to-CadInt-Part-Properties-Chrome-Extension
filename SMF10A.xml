@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PartNumber Name="SMF10A" Ver="1">
+<Properties Ver="1">
+<A Key="PARTNAME" Value="SMF10A"/>
+<A Key="ALTPARTREF" Value="TVS_DIODE"/>
+<A Key="PARTDESC" Value="TVS DIODE 10V 17V SOD123F"/>
+<A Key="MANUFACTURER" Value="Littelfuse Inc."/>
+<A Key="PREFIX" Value="D"/>
+<A Key="TOLERANCE" Value=""/>
+<A Key="VALUE" Value="10/17V"/>
+<A Key="VENDOR" Value="Digi-Key"/>
+<A Key="VENDOR_PN" Value="F5745CT-ND"/>
+</Properties>
+</PartNumber>
