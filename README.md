@@ -13,4 +13,3 @@ https://stackoverflow.com/questions/4845215/making-a-chrome-extension-download-a
 https://developer.chrome.com/extensions/downloads
 
 https://developer.chrome.com/extensions/getstarted
-
