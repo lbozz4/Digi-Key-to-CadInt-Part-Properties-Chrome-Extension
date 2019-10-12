@@ -5,25 +5,10 @@ var PARTDESC = "ERROR"
 var EXDESC = "ERROR"
 
 
-var enabled = 0;
-
-chrome.tabs.onActivated.addListener(function () {
-    chrome.tabs.query({ currentWindow: true, active: true, url: "https://www.digikey.com/product-detail/*" }, function (tab) {
-        if (tab[0]) {
-            chrome.browserAction.setIcon({ path: "icon_enabled.png" });
-            enabled = 1;
-            console.log("icon enabled!");
-        }
-    });
-});
-
 chrome.browserAction.onClicked.addListener(function () {
-    console.log("enabled: " + enabled);
-    if (enabled) {
-        chrome.tabs.executeScript({
-            file: 'scrape.js'
-        });
-    }
+    chrome.tabs.executeScript({
+        file: 'scrape.js'
+    });
 });
 
 // Recieve the scraped variables as a message and then assemble the XML and download
