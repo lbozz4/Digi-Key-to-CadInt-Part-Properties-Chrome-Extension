@@ -9,22 +9,23 @@
     },
     "permissions": [
         "activeTab",
-        "declarativeContent",
         "storage",
         "downloads"
     ],
     "content_scripts": [
         {
             "matches": [
-                "https://www.digikey.com/product-detail/*"
+                "<all_urls>"
             ],
             "js": [
-                "contentScript.js"
+                "jquery-3.4.1.min.js"
             ]
         }
     ],
     "background": {
-        "scripts": ["background.js"],
+        "scripts": [
+            "background.js"
+        ],
         "persistent": false
     }
 }
