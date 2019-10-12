@@ -1,3 +1,4 @@
+src="jquery-3.4.1.min.js";
 
 var tds = $("#product-overview").find("td");
 var VENDOR_PN = $(tds[0]).text().trim();

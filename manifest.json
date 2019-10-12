@@ -4,14 +4,17 @@
     "version": "1.0",
     "manifest_version": 2,
     "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": "icon.png"
+        "default_icon": "icon_disabled.png"
     },
     "permissions": [
+        "tabs",
         "activeTab",
         "storage",
         "downloads"
     ],
+    "background" : {
+        "scripts" : ["background.js"]
+      },
     "content_scripts": [
         {
             "matches": [
