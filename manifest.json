@@ -18,7 +18,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.digikey.com/product-detail/*"
+                "https://www.digikey.com/product-detail/*",
+                "https://www.digikey.com/products/*"
             ],
             "js": [
                 "jquery-3.4.1.min.js"
